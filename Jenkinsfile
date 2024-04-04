@@ -29,13 +29,13 @@ pipeline
             }
 
         }
-        stage('Approve')
-        {
-            steps{
-                input "Shall I apply?"
-            }
+        // stage('Approve')
+        // {
+        //     steps{
+        //         input "Shall I apply?"
+        //     }
             
-        }
+        // }
         stage('Apply')
         {
             steps
