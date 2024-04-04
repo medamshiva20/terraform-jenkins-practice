@@ -3,6 +3,7 @@ agent { node {label 'label1'} }
 
 options{
     ansiColor('xterm')
+}
     stages {
         stage('Init')
         {
@@ -28,7 +29,6 @@ options{
             }
 
         }
-    }
     post{
         always{
             echo "I will run this action whether job success or not"
