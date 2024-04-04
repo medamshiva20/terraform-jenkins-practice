@@ -99,7 +99,7 @@ resource "aws_key_pair" "deployer" {
 }
 
 resource "aws_instance" "web"{
-   ami = "ami-03265a0778a880afb"
+   ami = "ami-0f3c7d07486cad139"
    instance_type = "t2.micro"
    subnet_id = aws_subnet.public.id
    vpc_security_group_ids = [aws_security_group.allow_http_ssh.id]
