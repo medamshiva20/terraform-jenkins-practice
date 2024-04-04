@@ -1,5 +1,5 @@
 module "this" {
-  source = "../terraform-aws-vpc"
+  source = "git::https://github.com/medamshiva20/terraform-jenkins-practice.git"
   cidr_block = var.cidr_block
   common_tags = var.common_tags
   vpc_tags = var.vpc_tags
