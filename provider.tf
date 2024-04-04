@@ -10,7 +10,7 @@ backend "s3"{
     bucket ="remote-devops-state"
     key = "vpc"
     region = "us-east-1"
-    dynamodb_table = "roboshop-lock" 
+    dynamodb_table = "roboshop-remote-lock" 
    }
 }
 
