@@ -6,7 +6,7 @@ pipeline
         {
             steps{
                 sh'''
-            cd terraform-jenkins-practice
+            cd /home/centos/workspace/roboshop-terraform-job
             ls -ltrh
             pwd
             terraform init
@@ -18,7 +18,7 @@ pipeline
         {
             steps{
             sh'''
-            cd terraform-jenkins-practice
+            cd /home/centos/workspace/roboshop-terraform-job
             ls -ltrh
             pwd
             terraform plan
