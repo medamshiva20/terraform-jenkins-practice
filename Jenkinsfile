@@ -9,7 +9,7 @@ pipeline
             cd /home/centos/workspace/roboshop-terraform-job
             ls -ltrh
             pwd
-            terraform init
+            terraform init -reconfigure
             '''
             }
             
