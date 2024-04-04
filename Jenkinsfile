@@ -41,6 +41,7 @@ pipeline
             steps
             {
                 sh'''
+                cd /home/centos/workspace/roboshop-terraform-job
                 terraform apply -auto-approve
                 '''
             }
