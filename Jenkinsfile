@@ -6,7 +6,7 @@ pipeline
         {
             steps{
                 sh'''
-            cd terraform/roboshop-infra/
+            cd terraform-jenkins-practice
             ls -ltrh
             pwd
             terraform init
@@ -18,7 +18,7 @@ pipeline
         {
             steps{
             sh'''
-            cd terraform/roboshop-infra/
+            cd terraform-jenkins-practice
             ls -ltrh
             pwd
             terraform plan
