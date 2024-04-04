@@ -1,9 +1,6 @@
 pipeline 
-agent { node {label 'label1'} }
-
-// options{
-//     ansiColor('xterm')
-// }
+{
+  agent { node {label 'label1'} }
     stages {
         stage('Init')
         {
@@ -40,4 +37,5 @@ agent { node {label 'label1'} }
             echo "I will run this action if the job only failure"
         }
     }
+}
 }
